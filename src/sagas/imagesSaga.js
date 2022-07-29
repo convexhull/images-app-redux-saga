@@ -1,5 +1,5 @@
 import { IMAGES } from '../constants';
-import { takeEvery, select, call, put } from 'redux-saga/effects';
+import { takeEvery, select, call, put, take } from 'redux-saga/effects';
 import { setImages, setError } from '../actions';
 import { fetchImages } from '../api';
 
